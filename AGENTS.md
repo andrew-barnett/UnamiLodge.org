@@ -60,6 +60,10 @@ script/test
 
 Before dependency upgrades, run `script/test` on the current branch to establish the baseline. After changing `Gemfile`, `Gemfile.lock`, CDN dependencies, Jekyll plugins, Docker build behavior, or layout/include behavior, run `script/test` again and compare the result before considering the change safe.
 
+The current lockfile intentionally keeps precompiled native platforms for `ffi` 1.17.4
+and `google-protobuf` 4.33.6 so Linux Docker/server builds do not compile those gems from
+generic Ruby packages.
+
 ## Deployment (important branch semantics)
 
 Deploy is via GitHub Actions that SSH into the web servers and `git reset --hard && git pull` — the server builds the site, not CI.
