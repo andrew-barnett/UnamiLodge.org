@@ -24,4 +24,5 @@ jobs:
           script: |
             cd $PRODDIR
             sudo -u www-data git reset --hard
+            sudo -u www-data bundle config set without test
             sudo -u www-data git pull

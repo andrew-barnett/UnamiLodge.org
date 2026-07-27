@@ -18,4 +18,4 @@ fi
 rm -rf _site
 
 "$BUNDLE_BIN" exec jekyll build
-"$RUBY_BIN" -Itest -rminitest/autorun -rbundler/setup test/site_test.rb
+"$BUNDLE_BIN" exec "$RUBY_BIN" -Itest test/site_test.rb
