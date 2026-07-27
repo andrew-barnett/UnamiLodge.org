@@ -14,11 +14,11 @@ A [Jekyll](https://jekyllrb.com/) static site for **Unami Lodge, One** (Order of
 Local development is easiest via the Docker image (avoids installing Ruby + the `vips`/`imagemagick` native deps that `jekyll_picture_tag` needs):
 
 ```sh
-docker build -t jekyll .
+docker build --platform linux/amd64 --build-arg JEKYLL_BASEURL=/ -t jekyll .
 docker run --rm -v ${PWD}:/srv/jekyll -p 4000:4000 jekyll serve --host 0.0.0.0
 ```
 
-Serves at http://127.0.0.1:4000. Rebuild the image after changing `Gemfile`/`Gemfile.lock`.
+Serves at http://127.0.0.1:4000. Rebuild the image after changing `Gemfile`/`Gemfile.lock`. The explicit `linux/amd64` platform avoids an Apple Silicon Alpine/protobuf native extension failure, and `JEKYLL_BASEURL=/` prevents the final Dockerfile build step from invoking `jekyll build -b` with an empty value.
 
 > Note: `dockerfile` ends with two `COPY . /srv/jekyll` + `jekyll build` lines used by the DigitalOcean App Platform build. The README notes those two lines should be deleted for a local build but **never committed** deleted.
 
