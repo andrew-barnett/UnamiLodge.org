@@ -1,146 +1,40 @@
-- title: Brotherhood Blitz
-  date: 2025-11-08
-  date-end:
-  r-closes:
-  time: 8 AM - 4:30 PM
-  price: 30
-  location: Musser SR
-  location-url: https://goo.gl/maps/73yBWLnRBgfA7JWn9
-  link-text: More Information
-  link-url: https://scoutingevent.com/525-104936
-  post-url:
-  ordeal: false
-  brotherhood: True
-  highlight: True
-
-- title: New Members Bash
-  date: 2025-11-23
-  date-end:
-  r-closes:
-  time: 
-  price: 
-  location: The Gravity Vault Radnor
-  location-url: https://maps.app.goo.gl/ukFC9hhZoFXA6sKi8
-  link-text: More Information
-  link-url: https://scoutingevent.com/525-100580
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: True
-
-- title: Lodge Leadership Development
-  date: 2025-12-06
-  date-end:
-  r-closes:
-  time: 8AM - 6PM
-  price: 0
-  location: TBD
-  location-url:
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: True
-
-- title: 110th Annual Lodge Dinner
-  date: 2026-01-03
-  date-end:
-  r-closes:
-  time:
-  price:
-  location: TBD
-  location-url:
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
-
-- title: Dues Early Bird Ends
-  date: 2026-01-31
-  date-end:
-  r-closes:
-  time:
-  price:
-  location: UnamiLodge.org
-  location-url:
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
-
-- title: Community Service Day
-  date: 2026-03-21
-  date-end:
-  r-closes:
-  time:
-  price:
-  location: TBD
-  location-url:
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
-
-- title: Spring Service 1
-  date: 2026-04-10
-  date-end: 2026-04-12
-  r-closes:
-  time:
-  price:
-  location: Musser SR
-  location-url: https://goo.gl/maps/73yBWLnRBgfA7JWn9
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
-
-- title: Spring Service 2
-  date: 2026-05-15
-  date-end: 2026-05-17
-  r-closes:
-  time:
-  price:
-  location: Resica Falls SR
-  location-url: https://goo.gl/maps/Fn6LfcEkADCf21iZ6
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
-
-- title: Section E17 Conclave
-  date: TBD
-  date-end:
-  time:
-  price:
-    youth:
-    adult:
-  location: Forestburg SR
-  location-url: https://maps.app.goo.gl/eMLcXgW5izR7zrNq6
-  link-text:
-  link-url:
-  post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
 
 - title: Summer Inductions Weekend
   date: 2026-08-07
   date-end: 2026-08-09
   time:
   price:
-  location: Musser SR
-  location-url: https://goo.gl/maps/73yBWLnRBgfA7JWn9
+  location: Resica Falls SR
+  location-url: https://goo.gl/maps/Fn6LfcEkADCf21iZ6
+  link-text: Sign Up
+  link-url: https://scoutingevent.com/525-109329
+  post-url:
+  ordeal: true
+  brotherhood: true
+  highlight: true
+
+- title: Scout Memorabilia Show
+  date: 2026-08-21
+  date-end: 2026-08-22
+  time:
+  price:
+  location: Community Center, Central Schwenkfelder Church
+  location-url: https://maps.app.goo.gl/Nh6VQFGyds2Q3fnu9
+  link-text: More Information
+  link-url: /show
+  post-url:
+  ordeal: false
+  brotherhood: false
+  highlight: True
+
+- title: Vigil Honor Weekend
+  date: 2026-09-19
+  date-end: 2026-09-20
+  r-closes:
+  time:
+  price:
+  location: Resica Falls SR
+  location-url: https://goo.gl/maps/Fn6LfcEkADCf21iZ6
   link-text:
   link-url:
   post-url:
@@ -156,12 +50,12 @@
   price:
   location: Resica Falls SR
   location-url: https://goo.gl/maps/Fn6LfcEkADCf21iZ6
-  link-text:
-  link-url:
+  link-text: Sign Up
+  link-url: https://scoutingevent.com/525-109329
   post-url:
-  ordeal: false
-  brotherhood: false
-  highlight: false
+  ordeal: true
+  brotherhood: true
+  highlight: True
 
 - title: Brotherhood Blitz
   date: 2026-11-07
@@ -175,5 +69,5 @@
   link-url:
   post-url:
   ordeal: false
-  brotherhood: false
+  brotherhood: true
   highlight: false

@@ -3,10 +3,12 @@ title: Home
 layout: links
 
 link-highlight:
-  Brotherhood Blitz: https://scoutingevent.com/525-104936#
+  Sign up for a weekend: https://scoutingevent.com/525-109329
+  Sign up for Conclave: https://registration.oa-scouting.org/Event/1339
+  2026 Dues: https://unamilodge.org/dues
+  Get the OA App: https://apps.apple.com/us/app/order-of-the-arrow-members/id6748922907
 
 links:
-  2025 Dues: https://unamilodge.org/dues
   Join the Order: https://unamilodge.org/electedcandidates
   Seal the Bond: https://unamilodge.org/brotherhood
   Lodge Calendar: https://unamilodge.org/calendar/
