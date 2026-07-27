@@ -36,6 +36,10 @@ bundle config set without test
 bundle install
 ```
 
+Set `bundle config set without test` once on each server as a persistent local Bundler
+setting. Do not put that command in the deploy workflows; deploys use `script_stop: true`,
+so a missing `bundle` executable would abort before `git pull`.
+
 Use Ruby 3.x for local work. The current `jekyll_picture_tag` dependency does not support Ruby 4. On Homebrew macOS, `ruby@3.4` works:
 
 ```sh
@@ -59,7 +63,6 @@ Before dependency upgrades, run `script/test` on the current branch to establish
 ## Deployment (important branch semantics)
 
 Deploy is via GitHub Actions that SSH into the web servers and `git reset --hard && git pull` — the server builds the site, not CI.
-The deploy workflows set `bundle config set without test` on the server before pulling so production installs do not include local test-only gems.
 
 - `.github/workflows/dev.yml` → triggers on push to **`development`** → deploys to dev.unamilodge.org
 - `.github/workflows/prod.yml` → triggers on push to **`master`** → deploys to production
