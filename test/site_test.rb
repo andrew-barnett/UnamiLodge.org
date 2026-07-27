@@ -1,8 +1,8 @@
 require "cgi"
 require "date"
+require "jekyll"
 require "minitest/autorun"
 require "pathname"
-require "set"
 require "yaml"
 
 ROOT = Pathname.new(__dir__).parent
@@ -123,7 +123,7 @@ class SiteTest < Minitest::Test
 
   def news_output_slug_for(path)
     title = path.basename(".md").to_s.sub(/\A\d{4}-\d{2}-\d{2}-/, "")
-    title.strip.gsub(/\s+/, "-")
+    Jekyll::Utils.slugify(title, mode: "pretty", cased: true)
   end
 
   def sanitize_filename(name)

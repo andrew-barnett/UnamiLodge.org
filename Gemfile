@@ -7,7 +7,3 @@ group :jekyll_plugins do
   gem 'csv'
   gem 'base64'
 end
-
-group :test do
-  gem 'minitest'
-end
